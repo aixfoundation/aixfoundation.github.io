@@ -35,12 +35,12 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: normal;
-  color: #990000;
+  color: #003366;
   text-align: left;
 }
 
 a, a:link, a:hover, a:visited, a:active {
-  color: #990000;
+  color: #004080;
 }
 
 b, strong {
@@ -52,7 +52,7 @@ b, strong {
 }
 
 .uci-blue {
-  color: #990000;
+  color: #1E3A5F;
 }
 
 .important {
@@ -81,7 +81,7 @@ figure {
 /*css of navbar*/
 
 .navbar-custom {
-    background-color: #990000;
+    background-color: #003B5C;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
