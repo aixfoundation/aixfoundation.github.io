@@ -44,7 +44,7 @@ a, a:link, a:hover, a:visited, a:active {
 }
 
 b, strong {
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .bg-ucsb {
