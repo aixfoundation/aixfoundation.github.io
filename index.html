@@ -135,7 +135,7 @@
     	March 13th, 2025        <b>Lizhi Yang</b> (Caltech) <br/>
     	<b><a href="#03132025">AI </a></b><br/>
     	February 20th, 2025     <b>Chuwei Wang</b> (Caltech) <br/>
-    	<b><a href="#02202025">Beyond Closure Models: Learning Chaotic Systems vis Physics-Informed Neural Operators </a></b><br/>
+    	<b><a href="#02202025">Beyond Closure Models: Learning Chaotic-Systems vis Physics-Informed Neural Operators </a></b><br/>
     	January 23rd, 2025      <b>Hongkai Zheng</b> (Caltech) <br/>
     	<b><a href="#01232025">Plug-and-Play Diffusion Model for Inverse Problems </a></b><br/>
 		
@@ -188,9 +188,18 @@
                   <figure style="margin: auto;" class="rounded">
                         <img src="https://caltechsites-prod.s3.amazonaws.com/ross/images/IMG_7659.max-250x250.jpg" class="img-fluid mx-auto d-block" style="margin-top:-15px"/>
                     </figure>
-                    <p class="text-center caption"><b>Yaozhong Shi</a></b></p>
+                    <p class="text-center caption"><b>Yaozhong Shi</b></p>
                     <p class="text-center caption caption-role"><b>PhD Candidate</b></p>
                     <p class="text-center caption caption-role"><b>Mechanical Engineering (ME)</b></p>
+                    <p class="text-center caption caption-loc"><i>Caltech</i></p>
+                </div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
+                  <figure style="margin: auto;" class="rounded">
+                        <img src="https://cwwangcal.github.io/images/self3.png" class="img-fluid mx-auto d-block" style="margin-top:-15px"/>
+                    </figure>
+                    <p class="text-center caption"><b><a href="https://cwwangcal.github.io/" target="_block">Chuwei Wang</a></b></p>
+                    <p class="text-center caption caption-role"><b>PhD Student</b></p>
+                    <p class="text-center caption caption-role"><b>Compuating and Mathematical Sciences (CMS)</b></p>
                     <p class="text-center caption caption-loc"><i>Caltech</i></p>
                 </div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
@@ -243,10 +252,10 @@
                     <b>Abstract:</b> abs <br/><br/>
                     <b>Bio:</b> bio  <br/><br/><br/>
 
-	    	    <h5 id="0220025"> Chuwei Wang </h5>
-                    <b>Title:</b> Beyond Closure Models: Learning Chaotic Systems vis Physics-Informed Neural Operators <br/><br/>
-                    <b>Abstract:</b> abs <br/><br/>
-                    <b>Bio:</b> bio  <br/><br/><br/>
+	    	    <h5 id="0220025">><a href="https://hwzhou2020.github.io" target="_block">Chuwei Wang</a></h5>
+                    <b>Title:</b> Beyond Closure Models: Learning Chaotic-Systems vis Physics-Informed Neural Operators <br/><br/>
+                    <b>Abstract:</b> Accurately predicting the long-term behavior of chaotic systems is crucial for various applications such as climate modeling. However, achieving such predictions typically requires iterative computations over a dense spatiotemporal grid to account for the unstable nature of chaotic systems, which is expensive and impractical in many real-world situations. An alternative approach to such a full-resolved simulation is using a coarse grid and then correcting its errors through a \textit{closure model}, which approximates the overall information from fine scales not captured in the coarse-grid simulation. Recently, ML approaches have been used for closure modeling, but they typically require a large number of training samples from expensive fully-resolved simulations (FRS). In this work, we prove an even more fundamental limitation, i.e., the standard approach to learning closure models suffers from a large approximation error for generic problems, no matter how large the model is, and it stems from the non-uniqueness of the mapping. We propose an alternative end-to-end learning approach using a physics-informed neural operator (PINO) that overcomes this limitation by not using a closure model or a coarse-grid solver. We first train the PINO model on data from a coarse-grid solver and then fine-tune it with (a small amount of) FRS and physics-based losses on a fine grid. The discretization-free nature of neural operators means that they do not suffer from the restriction of a coarse grid that closure models face, and they can provably approximate the long-term statistics of chaotic systems. In our experiments, our PINO model achieves a 330x speedup compared to FRS with a relative error ~10%. In contrast, the closure model coupled with a coarse-grid solver is 60x slower than PINO while having a much higher error ~186% when the closure model is trained on the same FRS dataset. <br/><br/>
+                    <b>Bio:</b> Chuwei Wang is a phd student at CMS dept. Caltech.  <br/><br/><br/>
 
 	            <h5 id="01232025">Hongkai Zheng </h5>
                     <b>Title:</b> Plug-and-Play Diffusion Model for Inverse Problems <br/><br/>
@@ -263,7 +272,7 @@
                     <b>Abstract:</b> abs <br/><br/>
                     <b>Bio:</b> bio  <br/><br/><br/>
 
-	    	    <h5 id="10172024"><a href="https://hwzhou2020.github.io" target="_block">Haowen Zhou</a></h5>
+	    	    <h5 id="10172024"><a href="https://cwwangcal.github.io/" target="_block">Haowen Zhou</a></h5>
                     <b>Title:</b> Computational Microscopy -- algorithms driving better microscopes <br/><br/>
                     <b>Abstract:</b> Over the past century, microscopy has evolved significantly through advances in hardware design. However, pushing the boundaries of imaging performance using purely optical and mechanical innovations has become increasingly challenging. Meanwhile, the rapid growth in computational power has transformed the way we process and analyze imaging data, enabling a paradigm shift in microscopy. By offloading complexity from hardware to algorithms, computational microscopy—a rising interdisciplinary field—offers a powerful approach to simplify system design, correct aberrations, and extract more information from data. In this talk, I will explore how computational techniques can enhance modern imaging systems, with case studies in biological and pathological applications that highlight the potential of this synergistic approach. <br/><br/>
                     <b>Bio:</b> Haowen Zhou is a Ph.D. candidate at Department of Electrical Engineering in California Institute of Technology, advised by professor Changhuei Yang. His research focuses on computational microscopy for 2D and 3D imaging, with broad applications in biological and clinical sciences. Haowen received his B.S. degree in Optical Engineering from Huazhong University of Science and Technology, China in 2019, an M.S. degree in Electro-Optics from University of Dayton in 2021, and an M.S. degree in Electrical Engineering from California Institute of Technology in 2024. He is a Gupta Sensing to Intelligence fellow, a 2024 SPIE Optics and Photonics Education Fellow, and a Schmidt Graduate Research Fellow. <br/><br/><br/>
