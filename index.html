@@ -120,8 +120,6 @@
 	    
 	<p>
 		
-        Jan/Jun, 2025           <b>TBD</b> (Caltech) <br/>
-	<b><a href="#07032025">TBDs</a></b><br/>
 	May 29th, 2025          <b>Shun Ye</b> (UCLA) <br/>
         <b><a href="#05292025">Breaking into Academic Startups and Entrepreneur Ventures </a></b><br/>
     	May 22th, 2025          <b>Yaozhong Shi</b> (Caltech) <br/>
@@ -271,10 +269,12 @@
 	    </div>
             <br/>    
 	    <br/>
-                    <h5 id="07032025"> someone </h5>
+                    <!--
+	    	    <h5 id="07032025"> someone </h5>
                     <b>Title:</b> title <br/><br/>
                     <b>Abstract:</b> abs <br/><br/>
                     <b>Bio:</b> bio  <br/><br/><br/>
+		    -->
 
 	    	    <h5 id="05292025"><a href="https://www.linkedin.com/in/ebot/" target="_block">Shun Ye</a></h5>
                     <b>Title:</b> Breaking into Academic Startups and Entrepreneur Ventures <br/><br/>
@@ -311,7 +311,7 @@
                     <b>Abstract:</b> Accurately predicting the long-term behavior of chaotic systems is crucial for various applications such as climate modeling. However, achieving such predictions typically requires iterative computations over a dense spatiotemporal grid to account for the unstable nature of chaotic systems, which is expensive and impractical in many real-world situations. An alternative approach to such a full-resolved simulation is using a coarse grid and then correcting its errors through a \textit{closure model}, which approximates the overall information from fine scales not captured in the coarse-grid simulation. Recently, ML approaches have been used for closure modeling, but they typically require a large number of training samples from expensive fully-resolved simulations (FRS). In this work, we prove an even more fundamental limitation, i.e., the standard approach to learning closure models suffers from a large approximation error for generic problems, no matter how large the model is, and it stems from the non-uniqueness of the mapping. We propose an alternative end-to-end learning approach using a physics-informed neural operator (PINO) that overcomes this limitation by not using a closure model or a coarse-grid solver. We first train the PINO model on data from a coarse-grid solver and then fine-tune it with (a small amount of) FRS and physics-based losses on a fine grid. The discretization-free nature of neural operators means that they do not suffer from the restriction of a coarse grid that closure models face, and they can provably approximate the long-term statistics of chaotic systems. In our experiments, our PINO model achieves a 330x speedup compared to FRS with a relative error ~10%. In contrast, the closure model coupled with a coarse-grid solver is 60x slower than PINO while having a much higher error ~186% when the closure model is trained on the same FRS dataset. <br/><br/>
                     <b>Bio:</b> Chuwei Wang is a phd student at CMS dept in Caltech. <br/><br/><br/>
 
-	            <h5 id="01232025">Hongkai Zheng </h5>
+	            <h5 id="01232025"><a href="https://devzhk.myportfolio.com/" target="_block">Hongkai Zheng</a></h5>
                     <b>Title:</b> Plug-and-Play Diffusion Model for Inverse Problems <br/><br/>
                     <b>Abstract:</b> Inverse problems are fundamental in many domains of science and engineering, where the goal is to infer the unknown source from indirect and noisy observations. These problems are challenging due to their ill-posedness, complexity in the underlying physics, and unknown measurement noise. This talk introduces a general family of probabilistic methods—Plug-and-Play Diffusion Prior (PnPDP) methods—that leverages both data-driven diffusion priors and knowledge of the underlying physics to solve ill-posed inverse problems. We introduce InverseBench, a benchmarking framework designed to evaluate PnPDP approaches in a systematic and easily extensible manner. We discuss experimental observations based on InverseBench, sharing insights into the efficacy and limitations of different PnPDP methods. <br/><br/>
                     <b>Bio:</b> Hongkai Zheng is a PhD candidate at Caltech in Computing + Mathematical Sciences advised by Yisong Yue. His research interests lie in the realm of deep generative modeling and inverse problems. He develops scalable and efficient generative models and designs algorithms to solve ill-posed problems in a probabilistic framework. <br/><br/><br/>
